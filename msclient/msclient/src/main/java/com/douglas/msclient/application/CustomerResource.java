@@ -28,4 +28,13 @@ public class CustomerResource {
                 .toUri();
         return ResponseEntity.created(positionHeader).build();
     }
+
+    @GetMapping(params = "cpf")
+    public ResponseEntity dataCustomer(@RequestParam("cpf") String cpf){
+        var customer = service.getByCPF(cpf);
+        if (customer.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(customer);
+    }
 }

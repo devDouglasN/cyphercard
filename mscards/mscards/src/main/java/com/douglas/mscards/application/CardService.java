@@ -11,7 +11,6 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class CardService {
 
     @Autowired
@@ -20,5 +19,10 @@ public class CardService {
     @Transactional
     public Card save(Card card){
         return repository.save(card);
+    }
+
+    public List<Card> getEqualMinorIncomeCards(Long income){
+        var incomeBigDecimal = BigDecimal.valueOf(income);
+        return repository.findByIncomeLessThanEqual(incomeBigDecimal);
     }
 }

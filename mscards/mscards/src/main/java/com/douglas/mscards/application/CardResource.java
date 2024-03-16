@@ -29,4 +29,10 @@ public class CardResource {
         service.save(card);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
+    @GetMapping(params = "income")
+    public ResponseEntity<List<Card>> listCardsbyIncome (@RequestParam("income") Long income){
+        List<Card> list = service.getEqualMinorIncomeCards(income);
+        return ResponseEntity.ok(list);
+    }
 }

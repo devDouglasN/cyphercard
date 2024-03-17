@@ -1,9 +1,8 @@
 package com.douglas.mscards.application;
 
-import com.douglas.mscards.CardRepository;
+import com.douglas.mscards.infra.repository.CardRepository;
 import com.douglas.mscards.domain.Card;
 import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

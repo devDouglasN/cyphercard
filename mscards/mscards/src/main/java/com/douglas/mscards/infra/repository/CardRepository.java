@@ -1,4 +1,4 @@
-package com.douglas.mscards;
+package com.douglas.mscards.infra.repository;
 
 import com.douglas.mscards.domain.Card;
 import org.springframework.data.jpa.repository.JpaRepository;

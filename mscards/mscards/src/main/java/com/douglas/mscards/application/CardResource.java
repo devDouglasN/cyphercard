@@ -1,6 +1,5 @@
 package com.douglas.mscards.application;
 
-import com.douglas.mscards.CardRepository;
 import com.douglas.mscards.application.representation.CardSaveRequest;
 import com.douglas.mscards.domain.Card;
 import jakarta.transaction.Transactional;

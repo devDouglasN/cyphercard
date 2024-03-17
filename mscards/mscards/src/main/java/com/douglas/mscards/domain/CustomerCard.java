@@ -20,5 +20,5 @@ public class CustomerCard {
     @JoinColumn(name = "id_card")
     private Card card;
 
-    private BigDecimal limit;
+    private BigDecimal limitCard;
 }

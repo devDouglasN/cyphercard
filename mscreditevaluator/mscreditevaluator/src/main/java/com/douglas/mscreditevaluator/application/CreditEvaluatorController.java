@@ -1,7 +1,6 @@
 package com.douglas.mscreditevaluator.application;
 
 import com.douglas.mscreditevaluator.domain.model.CustomerSituation;
-import jakarta.websocket.server.PathParam;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

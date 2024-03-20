@@ -17,7 +17,7 @@ public class CustomerResource {
     private CustomerService service;
 
     @PostMapping
-    public ResponseEntity<Customer> save(CustomerSaveRequest request){
+    public ResponseEntity<Customer> save(@RequestBody CustomerSaveRequest request){
         Customer customer = request.toModel();
         service.saveCustomer(customer);
         URI positionHeader = ServletUriComponentsBuilder

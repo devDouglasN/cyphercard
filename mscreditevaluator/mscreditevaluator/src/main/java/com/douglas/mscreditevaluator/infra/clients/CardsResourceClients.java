@@ -1,5 +1,6 @@
 package com.douglas.mscreditevaluator.infra.clients;
 
+import com.douglas.mscreditevaluator.domain.model.Card;
 import com.douglas.mscreditevaluator.domain.model.CustomerCard;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -13,4 +14,7 @@ public interface CardsResourceClients {
 
     @GetMapping(params = "cpf")
     public ResponseEntity<List<CustomerCard>> getCardsByCustomer(@RequestParam("cpf") String cpf);
+
+    @GetMapping(params = "income")
+    public ResponseEntity<List<Card>> listCardsbyIncome(@RequestParam("income") Long income);
 }

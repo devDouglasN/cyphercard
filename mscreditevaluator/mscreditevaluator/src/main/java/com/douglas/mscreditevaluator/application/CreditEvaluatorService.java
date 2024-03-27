@@ -1,10 +1,12 @@
 package com.douglas.mscreditevaluator.application;
 
+import com.douglas.mscreditevaluator.application.exception.CardRequestErrorException;
 import com.douglas.mscreditevaluator.application.exception.CustomerDataNotFoundException;
 import com.douglas.mscreditevaluator.application.exception.ErrorComminucationMicroservicesException;
 import com.douglas.mscreditevaluator.domain.model.*;
 import com.douglas.mscreditevaluator.infra.clients.CardsResourceClients;
 import com.douglas.mscreditevaluator.infra.clients.CustomerResourceClient;
+import com.douglas.mscreditevaluator.infra.mqueue.PublisherCardIssuanceRequest;
 import feign.FeignException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -13,6 +15,7 @@ import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -20,8 +23,8 @@ import java.util.stream.Collectors;
 public class CreditEvaluatorService {
 
     private final CustomerResourceClient customersClient;
-
     private final CardsResourceClients cardsClients;
+    private final PublisherCardIssuanceRequest issuanceCardPublisher;
 
     public CustomerSituation getCustomerSituation(String cpf) throws CustomerDataNotFoundException, ErrorComminucationMicroservicesException {
 
@@ -75,6 +78,16 @@ public class CreditEvaluatorService {
                 throw new CustomerDataNotFoundException();
             }
             throw new ErrorComminucationMicroservicesException(e.getMessage(), status);
+        }
+    }
+
+    public CardRequestProtocol requestIssuanceCard(CardIssuanceRequestData data){
+        try{
+            issuanceCardPublisher.requestCard(data);
+            var protocol = UUID.randomUUID().toString();
+            return new CardRequestProtocol(protocol);
+        }catch (Exception e){
+            throw new CardRequestErrorException(e.getMessage());
         }
     }
 }

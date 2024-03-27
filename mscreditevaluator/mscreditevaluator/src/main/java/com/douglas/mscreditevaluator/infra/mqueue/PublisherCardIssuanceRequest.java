@@ -17,13 +17,12 @@ public class PublisherCardIssuanceRequest {
     private final Queue queueCardIssuance;
 
     public void requestCard(CardIssuanceRequestData data) throws JsonProcessingException{
-        var json = converteIntoJson(data);
+        var json = convertIntoJson(data);
         rabbitTemplate.convertAndSend(queueCardIssuance.getName(), json);
     }
 
-    private String converteIntoJson(CardIssuanceRequestData dados)throws JsonProcessingException {
+    private String convertIntoJson(CardIssuanceRequestData data)throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        var json = mapper.writeValueAsString(dados);
-        return json;
+        return mapper.writeValueAsString(data);
     }
 }

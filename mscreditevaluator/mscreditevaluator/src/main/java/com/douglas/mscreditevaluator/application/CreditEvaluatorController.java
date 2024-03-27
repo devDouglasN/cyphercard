@@ -1,10 +1,9 @@
 package com.douglas.mscreditevaluator.application;
 
+import com.douglas.mscreditevaluator.application.exception.CardRequestErrorException;
 import com.douglas.mscreditevaluator.application.exception.CustomerDataNotFoundException;
 import com.douglas.mscreditevaluator.application.exception.ErrorComminucationMicroservicesException;
-import com.douglas.mscreditevaluator.domain.model.CustomerSituation;
-import com.douglas.mscreditevaluator.domain.model.DataEvaluation;
-import com.douglas.mscreditevaluator.domain.model.ReturnCustomerReview;
+import com.douglas.mscreditevaluator.domain.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -43,4 +42,13 @@ public class CreditEvaluatorController {
         }
     }
 
+    @PostMapping("card-requests")
+    public ResponseEntity requestCard(@RequestBody CardIssuanceRequestData data){
+        try{
+            CardRequestProtocol cardRequestProtocol = creditEvaluatorService.requestIssuanceCard(data);
+            return ResponseEntity.ok(cardRequestProtocol);
+        }catch (CardRequestErrorException e){
+            return ResponseEntity.internalServerError().body(e.getMessage());
+        }
+    }
 }

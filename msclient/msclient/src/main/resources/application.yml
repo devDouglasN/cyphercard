@@ -11,3 +11,13 @@ eureka:
       defaultZone: http://ciphercard-eureka-user:aerdkcucrp-rhsae-eeriu@localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  file:
+    name: ./log-file.log

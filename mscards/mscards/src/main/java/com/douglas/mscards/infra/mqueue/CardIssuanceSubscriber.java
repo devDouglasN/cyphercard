@@ -8,6 +8,7 @@ import com.douglas.mscards.infra.repository.CustomerCardRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
@@ -16,6 +17,7 @@ import java.util.Optional;
 
 @Component
 @AllArgsConstructor
+@Slf4j
 public class CardIssuanceSubscriber {
     
     private final CardRepository cardRepository;
@@ -38,7 +40,7 @@ public class CardIssuanceSubscriber {
             customerCardRepository.save(customerCard);
 
         }catch (Exception e){
-            e.printStackTrace();
+            log.error("Error when receiving request for card issuance: {} ", e.getMessage());
         }
     }
 }

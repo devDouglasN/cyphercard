@@ -2,6 +2,8 @@ package com.douglas.msclient.application;
 
 import com.douglas.msclient.application.representation.CustomerSaveRequest;
 import com.douglas.msclient.domain.Customer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +14,8 @@ import java.net.URI;
 @RestController
 @RequestMapping("customers")
 public class CustomerResource {
+
+    private static final Logger log = LoggerFactory.getLogger(CustomerResource.class);
 
     @Autowired
     private CustomerService service;

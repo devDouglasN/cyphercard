@@ -2,7 +2,7 @@ spring:
   application:
     name: mscards
   rabbitmq:
-    host: ciphercardrabbitmq
+    host: rabbitmq
     port: 5672
     username: guest
     password: guest

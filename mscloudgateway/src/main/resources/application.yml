@@ -11,7 +11,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8081/realms/msciphercardrealm
+          issuer-uri: http://${KEYCLOAK_SERVER}:${KEYCLOAK_PORT}/realms/msciphercardrealm
 
 server:
   port:8080
@@ -21,4 +21,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://ciphercard-eureka-user:aerdkcucrp-rhsae-eeriu@localhost:8761/eureka
+      defaultZone: http://ciphercard-eureka-user:aerdkcucrp-rhsae-eeriu@${EUREKA_SERVER}:8761/eureka

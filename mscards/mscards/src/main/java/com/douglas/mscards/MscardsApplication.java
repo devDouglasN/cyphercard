@@ -13,9 +13,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class MscardsApplication {
 
 	public static void main(String[] args) {
-		log.info("Information: {}", "test info");
-		log.error("Error: {}", "test error");
-		log.error("Warning: {}", "test warn");
 		SpringApplication.run(MscardsApplication.class, args);
 	}
 

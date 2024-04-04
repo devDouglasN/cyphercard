@@ -13,7 +13,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://ciphercard-eureka-user:aerdkcucrp-rhsae-eeriu@{EUREKA_SERVER}:8761/eureka
+      defaultZone: http://ciphercard-eureka-user:aerdkcucrp-rhsae-eeriu@${EUREKA_SERVER}:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
@@ -26,7 +26,3 @@ management:
     web:
       exposure:
         include: '*'
-
-logging:
-  file:
-    name: ./log-file.log

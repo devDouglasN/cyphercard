@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82607710-71b6-4fec-ac0e-813693845e55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/douglas/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/douglas/eurekaserver/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/douglas/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/log-file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/log-file.log.2024-03-29.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/MscardsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/application/CardResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/application/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/application/representation/CardSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/application/representation/CardsPerCustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/application/representation/CustomerCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/domain/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/domain/CardIssuanceRequestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/domain/CustomerCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/domain/FlagCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/infra/mqueue/CardIssuanceSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/infra/repository/CardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/java/com/douglas/mscards/infra/repository/CustomerCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscards/src/test/java/com/douglas/mscards/MscardsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/log-file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/MsclientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/application/CustomerResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/application/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/application/representation/CustomerSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/java/com/douglas/msclient/infra/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclient/src/test/java/com/douglas/msclient/MsclientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/src/main/java/com/douglas/mscloudgateway/MscloudgatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscloudgateway/src/test/java/com/douglas/mscloudgateway/MscloudgatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/log-file.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/log-file.log.2024-03-29.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/MscreditevaluatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/CreditEvaluatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/CreditEvaluatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/CardRequestErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/CustomerDataNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/ErrorComminucationMicroservicesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/config/MQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardApproved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardIssuanceRequestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardRequestProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerSituation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/DataEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/ReturnCustomerReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/clients/CardsResourceClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/clients/CustomerResourceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/mqueue/PublisherCardIssuanceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/resources/application-production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mscreditevaluator/src/test/java/com/douglas/mscreditevaluator/MscreditevaluatorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/java/com/douglas/eurekaserver/EurekaserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/java/com/douglas/eurekaserver/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application-production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/test/java/com/douglas/eurekaserver/EurekaserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/mscards.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/log-file.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/log-file.log.2024-03-29.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/MscardsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/application/CardResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/application/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/application/representation/CardSaveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/application/representation/CardsPerCustomerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/application/representation/CustomerCardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/domain/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/domain/CardIssuanceRequestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/domain/CustomerCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/domain/FlagCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/infra/mqueue/CardIssuanceSubscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/infra/repository/CardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/java/com/douglas/mscards/infra/repository/CustomerCardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/resources/application-production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscards/mscards/src/test/java/com/douglas/mscards/MscardsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/msclient.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/MsclientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/application/CustomerResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/application/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/application/representation/CustomerSaveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/java/com/douglas/msclient/infra/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/resources/application-production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msclient/msclient/src/test/java/com/douglas/msclient/MsclientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/src/main/java/com/douglas/mscloudgateway/MscloudgatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/src/main/resources/application-production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscloudgateway/src/test/java/com/douglas/mscloudgateway/MscloudgatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/mscreditevaluator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/log-file.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/MscreditevaluatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/CreditEvaluatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/CreditEvaluatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/CardRequestErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/CustomerDataNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/application/exception/ErrorComminucationMicroservicesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/config/MQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardApproved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardIssuanceRequestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CardRequestProtocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/CustomerSituation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/DataEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/domain/model/ReturnCustomerReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/clients/CardsResourceClients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/clients/CustomerResourceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/java/com/douglas/mscreditevaluator/infra/mqueue/PublisherCardIssuanceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/resources/application-production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mscreditevaluator/mscreditevaluator/src/test/java/com/douglas/mscreditevaluator/MscreditevaluatorApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2em7hYsjUlfElWMCYXZt6zpkjKr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.EurekaserverApplication.executor": "Run",
+    "Application.MscardsApplication.executor": "Run",
+    "Application.MsclientApplication.executor": "Run",
+    "Application.MscloudgatewayApplication.executor": "Run",
+    "Application.MscreditevaluatorApplication.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MscloudgatewayApplication">
+    <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douglas.eurekaserver.EurekaserverApplication" />
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douglas.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscardsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douglas.mscards.MscardsApplication" />
+      <module name="mscards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douglas.mscards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douglas.msclient.MsclientApplication" />
+      <module name="msclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douglas.msclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscloudgatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douglas.mscloudgateway.MscloudgatewayApplication" />
+      <module name="mscloudgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douglas.mscloudgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscreditevaluatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.douglas.mscreditevaluator.MscreditevaluatorApplication" />
+      <module name="mscreditevaluator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.douglas.mscreditevaluator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MscloudgatewayApplication" />
+        <item itemvalue="Application.MsclientApplication" />
+        <item itemvalue="Application.MscardsApplication" />
+        <item itemvalue="Application.MscreditevaluatorApplication" />
+        <item itemvalue="Application.EurekaserverApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-azul-17.0.9-4caba194b151-171533a4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82607710-71b6-4fec-ac0e-813693845e55" name="Changes" comment="" />
+      <created>1712498023372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712498023372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eurekaserver/src/main/java/com/douglas/eurekaserver/EurekaserverApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

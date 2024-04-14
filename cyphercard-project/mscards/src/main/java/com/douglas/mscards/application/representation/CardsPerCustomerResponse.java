@@ -7,16 +7,12 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class CardsPerCustomerResponse {
+public record CardsPerCustomerResponse(
 
-    private String name;
-    private String flag;
-    private BigDecimal limitReleased;
-
-    public static CardsPerCustomerResponse fromModel(CustomerCard card){
+        String name,
+        String flag,
+        BigDecimal limitReleased) {
+    public static CardsPerCustomerResponse fromModel(CustomerCard card) {
         return new CardsPerCustomerResponse(card.getCard().getName(),
                 card.getCard().getFlag().toString(),
                 card.getLimitCard());

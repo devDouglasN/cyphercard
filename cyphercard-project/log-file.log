@@ -248,3 +248,42 @@
 2024-04-08T13:49:00.325-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2024-04-08T13:52:25.433-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2024-04-08T13:54:00.336-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T13:57:25.440-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T13:59:00.352-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:02:25.446-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:04:00.367-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:07:25.459-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:09:00.370-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:12:25.464-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:14:00.376-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:17:25.476-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:19:00.385-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:22:25.484-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:24:00.387-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:27:25.498-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:29:00.392-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:32:25.513-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:34:00.401-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:37:25.514-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:39:00.415-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:42:25.517-03:00  INFO 9568 --- [mscreditevaluator] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:44:00.418-03:00  INFO 21800 --- [msclients] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-04-08T14:45:48.708-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLIENTS with eureka with status DOWN
+2024-04-08T14:45:48.709-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1712598348709, current=DOWN, previous=UP]
+2024-04-08T14:45:48.709-03:00  INFO 21800 --- [msclients] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTS/msclients:3669a315dc69ab3a01375f87d8cae77d: registering service...
+2024-04-08T14:45:48.739-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-08T14:45:48.751-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-08T14:45:48.753-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-08T14:45:48.754-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-04-08T14:45:48.777-03:00  INFO 21800 --- [msclients] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTS/msclients:3669a315dc69ab3a01375f87d8cae77d - registration status: 204
+2024-04-08T14:45:48.778-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-04-08T14:45:48.841-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTS/msclients:3669a315dc69ab3a01375f87d8cae77d - deregister  status: 200
+2024-04-08T14:45:48.846-03:00  INFO 21800 --- [msclients] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-04-08T14:45:50.291-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCREDITEVALUATOR with eureka with status DOWN
+2024-04-08T14:45:50.292-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1712598350292, current=DOWN, previous=UP]
+2024-04-08T14:45:50.292-03:00  INFO 9568 --- [mscreditevaluator] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCREDITEVALUATOR/mscreditevaluator:476961be7cffaaeede09a18359d8457b: registering service...
+2024-04-08T14:45:50.338-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-04-08T14:45:50.364-03:00  INFO 9568 --- [mscreditevaluator] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCREDITEVALUATOR/mscreditevaluator:476961be7cffaaeede09a18359d8457b - registration status: 204
+2024-04-08T14:45:50.365-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-04-08T14:45:50.421-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCREDITEVALUATOR/mscreditevaluator:476961be7cffaaeede09a18359d8457b - deregister  status: 200
+2024-04-08T14:45:50.425-03:00  INFO 9568 --- [mscreditevaluator] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

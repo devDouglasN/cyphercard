@@ -1,9 +1,11 @@
 package com.douglas.mscreditevaluator.domain.model;
 
+import lombok.Data;
 
-public record CustomerData (
+@Data
+public class CustomerData {
 
-        Long id,
-        String name,
-        Integer age){
+    private Long id;
+    private String name;
+    private Integer age;
 }

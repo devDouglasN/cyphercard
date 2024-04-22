@@ -1,9 +1,11 @@
 package com.douglas.mscreditevaluator.domain.model;
 
 
+import lombok.Data;
 
-public record DataEvaluation (
+@Data
+public class DataEvaluation {
 
-        String cpf,
-        Long income){
+    private String cpf;
+    private Long income;
 }

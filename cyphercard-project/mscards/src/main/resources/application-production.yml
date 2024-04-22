@@ -20,9 +20,3 @@ eureka:
 mq:
   queues:
     card-issuance: card-issuance
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'

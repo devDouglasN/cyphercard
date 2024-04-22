@@ -8,6 +8,7 @@ import com.douglas.mscards.infra.repository.CustomerCardRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
@@ -16,7 +17,7 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 
 @Component
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Slf4j
 public class CardIssuanceSubscriber {
     
@@ -25,7 +26,6 @@ public class CardIssuanceSubscriber {
 
     @RabbitListener(queues = "${mq.queues.card-issuance}")
     public void receiveRequestIssuance(@Payload String payload){
-        System.out.println(payload);
 
         try {
             var mapper = new ObjectMapper();
